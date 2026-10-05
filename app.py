@@ -45,8 +45,17 @@ app.mount("/static", StaticFiles(directory="web"), name="static")
 
 
 @app.get("/")
+@app.get("/new")
 def read_root():
+    """Serves the new modern luxury editorial interface."""
     return FileResponse("web/index.html")
+
+
+@app.get("/classic")
+@app.get("/old")
+def read_classic():
+    """Serves the original classic dark-mode dashboard interface."""
+    return FileResponse("web/classic.html")
 
 
 @app.get("/api/gallery")
