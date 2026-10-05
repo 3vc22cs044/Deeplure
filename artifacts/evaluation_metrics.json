@@ -1,0 +1,29 @@
+{
+  "identification": {
+    "top1_accuracy_percent": 77.33,
+    "top5_accuracy_percent": 90.67,
+    "mean_average_precision_percent": 83.29,
+    "cmc_top1": 77.33,
+    "cmc_top5": 90.67,
+    "evaluated_query_count": 75,
+    "gallery_size": 25
+  },
+  "verification": {
+    "auc": 0.9495,
+    "eer_percent": 13.42,
+    "optimal_threshold": 0.5251,
+    "total_pairs_evaluated": 1089,
+    "positive_pairs": 75,
+    "negative_pairs": 1014
+  },
+  "color_invariance_diagnostic": {
+    "mean_same_motif_diff_colorway_sim": 0.8255,
+    "mean_diff_motif_same_palette_sim": 0.1949,
+    "color_bias_gap": 0.6305,
+    "assessment": "Demonstrates strong color invariance: motif geometry governs similarity rather than dye color."
+  },
+  "plots": {
+    "roc_curve": "artifacts\\roc_curve.png",
+    "cmc_curve": "artifacts\\cmc_curve.png"
+  }
+}

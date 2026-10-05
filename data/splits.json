@@ -1,0 +1,1528 @@
+{
+  "train_designs": [
+    {
+      "design_id": "train_design_000_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_000_Banarasi"
+    },
+    {
+      "design_id": "train_design_001_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_001_Pichwai"
+    },
+    {
+      "design_id": "train_design_002_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_002_Bandhani"
+    },
+    {
+      "design_id": "train_design_003_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_003_Banarasi"
+    },
+    {
+      "design_id": "train_design_004_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_004_Bandhani"
+    },
+    {
+      "design_id": "train_design_005_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_005_Banarasi"
+    },
+    {
+      "design_id": "train_design_006_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_006_Banarasi"
+    },
+    {
+      "design_id": "train_design_007_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_007_Ikat"
+    },
+    {
+      "design_id": "train_design_008_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_008_Banarasi"
+    },
+    {
+      "design_id": "train_design_009_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_009_Bandhani"
+    },
+    {
+      "design_id": "train_design_010_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_010_Bandhani"
+    },
+    {
+      "design_id": "train_design_011_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_011_Banarasi"
+    },
+    {
+      "design_id": "train_design_012_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_012_Banarasi"
+    },
+    {
+      "design_id": "train_design_013_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_013_Banarasi"
+    },
+    {
+      "design_id": "train_design_014_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_014_Ikat"
+    },
+    {
+      "design_id": "train_design_015_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_015_Pichwai"
+    },
+    {
+      "design_id": "train_design_016_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_016_Banarasi"
+    },
+    {
+      "design_id": "train_design_017_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_017_Ikat"
+    },
+    {
+      "design_id": "train_design_018_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_018_Ikat"
+    },
+    {
+      "design_id": "train_design_019_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_019_Bandhani"
+    },
+    {
+      "design_id": "train_design_020_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_020_Banarasi"
+    },
+    {
+      "design_id": "train_design_021_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_021_Banarasi"
+    },
+    {
+      "design_id": "train_design_022_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_022_Pichwai"
+    },
+    {
+      "design_id": "train_design_023_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_023_Banarasi"
+    },
+    {
+      "design_id": "train_design_024_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_024_Bandhani"
+    },
+    {
+      "design_id": "train_design_025_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_025_Banarasi"
+    },
+    {
+      "design_id": "train_design_026_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_026_Pichwai"
+    },
+    {
+      "design_id": "train_design_027_Handloom",
+      "category": "Handloom",
+      "source": "deeplure",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_027_Handloom"
+    },
+    {
+      "design_id": "train_design_028_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_028_Bandhani"
+    },
+    {
+      "design_id": "train_design_029_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_029_Pichwai"
+    },
+    {
+      "design_id": "train_design_030_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_030_Banarasi"
+    },
+    {
+      "design_id": "train_design_031_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_031_Ikat"
+    },
+    {
+      "design_id": "train_design_032_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_032_Bandhani"
+    },
+    {
+      "design_id": "train_design_033_Handloom",
+      "category": "Handloom",
+      "source": "deeplure",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_033_Handloom"
+    },
+    {
+      "design_id": "train_design_034_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_034_Bandhani"
+    },
+    {
+      "design_id": "train_design_035_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_035_Banarasi"
+    },
+    {
+      "design_id": "train_design_036_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_036_Ikat"
+    },
+    {
+      "design_id": "train_design_037_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_037_Pichwai"
+    },
+    {
+      "design_id": "train_design_038_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_038_Ikat"
+    },
+    {
+      "design_id": "train_design_039_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "num_colorways": 6,
+      "dir": "data/saree_dataset\\train\\train_design_039_Ikat"
+    }
+  ],
+  "gallery_items": [
+    {
+      "gallery_id": "gal_000",
+      "design_id": "design_000_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_000_Ikat_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_001",
+      "design_id": "design_001_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_001_Pichwai_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_002",
+      "design_id": "design_002_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_002_Bandhani_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_003",
+      "design_id": "design_003_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_003_Bandhani_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_004",
+      "design_id": "design_004_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_004_Banarasi_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_005",
+      "design_id": "design_005_Handloom",
+      "category": "Handloom",
+      "source": "deeplure",
+      "path": "data/saree_dataset\\gallery\\design_005_Handloom_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_006",
+      "design_id": "design_006_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_006_Ikat_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_007",
+      "design_id": "design_007_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_007_Pichwai_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_008",
+      "design_id": "design_008_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_008_Pichwai_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_009",
+      "design_id": "design_009_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_009_Banarasi_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_010",
+      "design_id": "design_010_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_010_Banarasi_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_011",
+      "design_id": "design_011_Banarasi",
+      "category": "Banarasi",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_011_Banarasi_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_012",
+      "design_id": "design_012_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_012_Pichwai_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_013",
+      "design_id": "design_013_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_013_Pichwai_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_014",
+      "design_id": "design_014_Handloom",
+      "category": "Handloom",
+      "source": "deeplure",
+      "path": "data/saree_dataset\\gallery\\design_014_Handloom_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_015",
+      "design_id": "design_015_Pichwai",
+      "category": "Pichwai",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_015_Pichwai_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_016",
+      "design_id": "design_016_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_016_Bandhani_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_017",
+      "design_id": "design_017_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_017_Ikat_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_018",
+      "design_id": "design_018_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_018_Bandhani_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_019",
+      "design_id": "design_019_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_019_Bandhani_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_020",
+      "design_id": "design_020_Bandhani",
+      "category": "Bandhani",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_020_Bandhani_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_021",
+      "design_id": "design_021_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_021_Ikat_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_022",
+      "design_id": "design_022_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_022_Ikat_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_023",
+      "design_id": "design_023_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_023_Ikat_canonical.jpg"
+    },
+    {
+      "gallery_id": "gal_024",
+      "design_id": "design_024_Ikat",
+      "category": "Ikat",
+      "source": "kaggle",
+      "path": "data/saree_dataset\\gallery\\design_024_Ikat_canonical.jpg"
+    }
+  ],
+  "query_items": [
+    {
+      "query_id": "q_pos_000_1",
+      "design_id": "design_000_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_000",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_000_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_000_2",
+      "design_id": "design_000_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_000",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_000_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_000_3",
+      "design_id": "design_000_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_000",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_000_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_000",
+      "design_id": "design_001_Pichwai",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_000",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_000_Ikat.jpg"
+    },
+    {
+      "query_id": "q_pos_001_1",
+      "design_id": "design_001_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_001",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_001_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_001_2",
+      "design_id": "design_001_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_001",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_001_Pichwai_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_001_3",
+      "design_id": "design_001_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_001",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_001_Pichwai_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_001",
+      "design_id": "design_002_Bandhani",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_001",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_001_Pichwai.jpg"
+    },
+    {
+      "query_id": "q_pos_002_1",
+      "design_id": "design_002_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_002",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_002_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_002_2",
+      "design_id": "design_002_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_002",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_002_Bandhani_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_002_3",
+      "design_id": "design_002_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_002",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_002_Bandhani_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_002",
+      "design_id": "design_003_Bandhani",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_002",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_002_Bandhani.jpg"
+    },
+    {
+      "query_id": "q_pos_003_1",
+      "design_id": "design_003_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_003",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_003_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_003_2",
+      "design_id": "design_003_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_003",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_003_Bandhani_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_003_3",
+      "design_id": "design_003_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_003",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_003_Bandhani_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_003",
+      "design_id": "design_004_Banarasi",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_003",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_003_Bandhani.jpg"
+    },
+    {
+      "query_id": "q_pos_004_1",
+      "design_id": "design_004_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_004",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_004_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_004_2",
+      "design_id": "design_004_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_004",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_004_Banarasi_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_004_3",
+      "design_id": "design_004_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_004",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_004_Banarasi_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_004",
+      "design_id": "design_005_Handloom",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_004",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_004_Banarasi.jpg"
+    },
+    {
+      "query_id": "q_pos_005_1",
+      "design_id": "design_005_Handloom",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_005",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_match_design_005_Handloom_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_005_2",
+      "design_id": "design_005_Handloom",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_005",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_match_design_005_Handloom_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_005_3",
+      "design_id": "design_005_Handloom",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_005",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_match_design_005_Handloom_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_005",
+      "design_id": "design_006_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_005",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_005_Handloom.jpg"
+    },
+    {
+      "query_id": "q_pos_006_1",
+      "design_id": "design_006_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_006",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_006_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_006_2",
+      "design_id": "design_006_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_006",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_006_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_006_3",
+      "design_id": "design_006_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_006",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_006_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_006",
+      "design_id": "design_007_Pichwai",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_006",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_006_Ikat.jpg"
+    },
+    {
+      "query_id": "q_pos_007_1",
+      "design_id": "design_007_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_007",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_007_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_007_2",
+      "design_id": "design_007_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_007",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_007_Pichwai_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_007_3",
+      "design_id": "design_007_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_007",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_007_Pichwai_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_007",
+      "design_id": "design_008_Pichwai",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_007",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_007_Pichwai.jpg"
+    },
+    {
+      "query_id": "q_pos_008_1",
+      "design_id": "design_008_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_008",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_008_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_008_2",
+      "design_id": "design_008_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_008",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_008_Pichwai_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_008_3",
+      "design_id": "design_008_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_008",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_008_Pichwai_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_008",
+      "design_id": "design_009_Banarasi",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_008",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_008_Pichwai.jpg"
+    },
+    {
+      "query_id": "q_pos_009_1",
+      "design_id": "design_009_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_009",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_009_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_009_2",
+      "design_id": "design_009_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_009",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_009_Banarasi_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_009_3",
+      "design_id": "design_009_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_009",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_009_Banarasi_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_009",
+      "design_id": "design_010_Banarasi",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_009",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_009_Banarasi.jpg"
+    },
+    {
+      "query_id": "q_pos_010_1",
+      "design_id": "design_010_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_010",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_010_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_010_2",
+      "design_id": "design_010_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_010",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_010_Banarasi_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_010_3",
+      "design_id": "design_010_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_010",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_010_Banarasi_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_010",
+      "design_id": "design_011_Banarasi",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_010",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_010_Banarasi.jpg"
+    },
+    {
+      "query_id": "q_pos_011_1",
+      "design_id": "design_011_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_011",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_011_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_011_2",
+      "design_id": "design_011_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_011",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_011_Banarasi_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_011_3",
+      "design_id": "design_011_Banarasi",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_011",
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_match_design_011_Banarasi_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_011",
+      "design_id": "design_012_Pichwai",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_011",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_011_Banarasi.jpg"
+    },
+    {
+      "query_id": "q_pos_012_1",
+      "design_id": "design_012_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_012",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_012_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_012_2",
+      "design_id": "design_012_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_012",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_012_Pichwai_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_012_3",
+      "design_id": "design_012_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_012",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_012_Pichwai_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_012",
+      "design_id": "design_013_Pichwai",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_012",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_012_Pichwai.jpg"
+    },
+    {
+      "query_id": "q_pos_013_1",
+      "design_id": "design_013_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_013",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_013_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_013_2",
+      "design_id": "design_013_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_013",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_013_Pichwai_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_013_3",
+      "design_id": "design_013_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_013",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_013_Pichwai_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_013",
+      "design_id": "design_014_Handloom",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_013",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_013_Pichwai.jpg"
+    },
+    {
+      "query_id": "q_pos_014_1",
+      "design_id": "design_014_Handloom",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_014",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_match_design_014_Handloom_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_014_2",
+      "design_id": "design_014_Handloom",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_014",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_match_design_014_Handloom_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_014_3",
+      "design_id": "design_014_Handloom",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_014",
+      "category": "Handloom",
+      "path": "data/saree_dataset\\query\\q_match_design_014_Handloom_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_014",
+      "design_id": "design_015_Pichwai",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_014",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_014_Handloom.jpg"
+    },
+    {
+      "query_id": "q_pos_015_1",
+      "design_id": "design_015_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_015",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_015_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_015_2",
+      "design_id": "design_015_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_015",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_015_Pichwai_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_015_3",
+      "design_id": "design_015_Pichwai",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_015",
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_match_design_015_Pichwai_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_015",
+      "design_id": "design_016_Bandhani",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_015",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_015_Pichwai.jpg"
+    },
+    {
+      "query_id": "q_pos_016_1",
+      "design_id": "design_016_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_016",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_016_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_016_2",
+      "design_id": "design_016_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_016",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_016_Bandhani_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_016_3",
+      "design_id": "design_016_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_016",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_016_Bandhani_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_016",
+      "design_id": "design_017_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_016",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_016_Bandhani.jpg"
+    },
+    {
+      "query_id": "q_pos_017_1",
+      "design_id": "design_017_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_017",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_017_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_017_2",
+      "design_id": "design_017_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_017",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_017_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_017_3",
+      "design_id": "design_017_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_017",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_017_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_017",
+      "design_id": "design_018_Bandhani",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_017",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_017_Ikat.jpg"
+    },
+    {
+      "query_id": "q_pos_018_1",
+      "design_id": "design_018_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_018",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_018_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_018_2",
+      "design_id": "design_018_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_018",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_018_Bandhani_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_018_3",
+      "design_id": "design_018_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_018",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_018_Bandhani_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_018",
+      "design_id": "design_019_Bandhani",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_018",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_018_Bandhani.jpg"
+    },
+    {
+      "query_id": "q_pos_019_1",
+      "design_id": "design_019_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_019",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_019_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_019_2",
+      "design_id": "design_019_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_019",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_019_Bandhani_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_019_3",
+      "design_id": "design_019_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_019",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_019_Bandhani_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_019",
+      "design_id": "design_020_Bandhani",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_019",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_019_Bandhani.jpg"
+    },
+    {
+      "query_id": "q_pos_020_1",
+      "design_id": "design_020_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_020",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_020_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_020_2",
+      "design_id": "design_020_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_020",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_020_Bandhani_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_020_3",
+      "design_id": "design_020_Bandhani",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_020",
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_match_design_020_Bandhani_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_020",
+      "design_id": "design_021_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_020",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_020_Bandhani.jpg"
+    },
+    {
+      "query_id": "q_pos_021_1",
+      "design_id": "design_021_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_021",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_021_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_021_2",
+      "design_id": "design_021_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_021",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_021_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_021_3",
+      "design_id": "design_021_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_021",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_021_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_021",
+      "design_id": "design_022_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_021",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_021_Ikat.jpg"
+    },
+    {
+      "query_id": "q_pos_022_1",
+      "design_id": "design_022_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_022",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_022_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_022_2",
+      "design_id": "design_022_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_022",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_022_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_022_3",
+      "design_id": "design_022_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_022",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_022_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_022",
+      "design_id": "design_023_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_022",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_022_Ikat.jpg"
+    },
+    {
+      "query_id": "q_pos_023_1",
+      "design_id": "design_023_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_023",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_023_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_023_2",
+      "design_id": "design_023_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_023",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_023_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_023_3",
+      "design_id": "design_023_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_023",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_023_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_023",
+      "design_id": "design_024_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_023",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_023_Ikat.jpg"
+    },
+    {
+      "query_id": "q_pos_024_1",
+      "design_id": "design_024_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_024",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_024_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_pos_024_2",
+      "design_id": "design_024_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_024",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_024_Ikat_cw2.jpg"
+    },
+    {
+      "query_id": "q_pos_024_3",
+      "design_id": "design_024_Ikat",
+      "query_type": "cross_colorway_match",
+      "target_gallery_id": "gal_024",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_match_design_024_Ikat_cw3.jpg"
+    },
+    {
+      "query_id": "q_distractor_024",
+      "design_id": "design_000_Ikat",
+      "query_type": "same_palette_diff_motif",
+      "target_gallery_id": null,
+      "intended_confuser_gallery_id": "gal_024",
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_distractor_for_design_024_Ikat.jpg"
+    },
+    {
+      "query_id": "q_unseen_000_0",
+      "design_id": "unseen_000_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_000_Pichwai_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_000_1",
+      "design_id": "unseen_000_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_000_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_001_0",
+      "design_id": "unseen_001_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_001_Pichwai_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_001_1",
+      "design_id": "unseen_001_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_001_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_002_0",
+      "design_id": "unseen_002_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_002_Banarasi_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_002_1",
+      "design_id": "unseen_002_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_002_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_003_0",
+      "design_id": "unseen_003_Bandhani",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_003_Bandhani_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_003_1",
+      "design_id": "unseen_003_Bandhani",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_003_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_004_0",
+      "design_id": "unseen_004_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_004_Banarasi_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_004_1",
+      "design_id": "unseen_004_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_004_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_005_0",
+      "design_id": "unseen_005_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_005_Pichwai_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_005_1",
+      "design_id": "unseen_005_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_005_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_006_0",
+      "design_id": "unseen_006_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_006_Pichwai_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_006_1",
+      "design_id": "unseen_006_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_006_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_007_0",
+      "design_id": "unseen_007_Ikat",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_007_Ikat_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_007_1",
+      "design_id": "unseen_007_Ikat",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_007_Ikat_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_008_0",
+      "design_id": "unseen_008_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_008_Banarasi_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_008_1",
+      "design_id": "unseen_008_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_008_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_009_0",
+      "design_id": "unseen_009_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_009_Pichwai_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_009_1",
+      "design_id": "unseen_009_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_009_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_010_0",
+      "design_id": "unseen_010_Bandhani",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_010_Bandhani_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_010_1",
+      "design_id": "unseen_010_Bandhani",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_010_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_011_0",
+      "design_id": "unseen_011_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_011_Banarasi_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_011_1",
+      "design_id": "unseen_011_Banarasi",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Banarasi",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_011_Banarasi_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_012_0",
+      "design_id": "unseen_012_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_012_Pichwai_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_012_1",
+      "design_id": "unseen_012_Pichwai",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Pichwai",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_012_Pichwai_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_013_0",
+      "design_id": "unseen_013_Bandhani",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_013_Bandhani_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_013_1",
+      "design_id": "unseen_013_Bandhani",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Bandhani",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_013_Bandhani_cw1.jpg"
+    },
+    {
+      "query_id": "q_unseen_014_0",
+      "design_id": "unseen_014_Ikat",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_014_Ikat_cw0.jpg"
+    },
+    {
+      "query_id": "q_unseen_014_1",
+      "design_id": "unseen_014_Ikat",
+      "query_type": "open_set_novel",
+      "target_gallery_id": null,
+      "category": "Ikat",
+      "path": "data/saree_dataset\\query\\q_unseen_unseen_014_Ikat_cw1.jpg"
+    }
+  ]
+}
