@@ -35,3 +35,4 @@ data/deeplure_corpus/
 # OS specific
 .DS_Store
 Thumbs.db
+cloudflared.exe
