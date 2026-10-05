@@ -3,501 +3,454 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DeepLure CIS-Net — Color-Invariant Saree Recognition Studio</title>
+  <title>DeepLure CIS-Net — Archive of Weaves &amp; Textile Vision</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
 
-  <!-- Studio Shell: Left Navigation Dock + Main Workspace -->
-  <div class="studio-shell">
-    
-    <!-- Left Navigation Dock -->
-    <aside class="studio-sidebar">
-      <!-- Brand Pod -->
-      <div class="brand-card">
-        <div class="brand-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+  <!-- Minimalist Luxury Floating Top Navigation -->
+  <header class="top-nav">
+    <div class="nav-inner">
+      <div class="brand-wrapper">
+        <div class="brand-crest">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
             <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
             <polyline points="2 17 12 22 22 17"></polyline>
             <polyline points="2 12 12 17 22 12"></polyline>
           </svg>
         </div>
-        <div class="brand-meta">
-          <h1>DeepLure <span class="brand-badge">CIS-Net</span></h1>
-          <p>Textile Face Recognition</p>
+        <div>
+          <div class="brand-title">
+            DeepLure <span class="brand-badge-pill">CIS-Net Engine</span>
+          </div>
+          <p class="brand-tagline">Color-Invariant Neural Vision for Indian Textiles</p>
         </div>
       </div>
 
-      <!-- Navigation Tabs Section -->
-      <div class="sidebar-section-title">Recognition Workspace</div>
-      <nav class="sidebar-nav">
-        <button class="tab-btn active" data-tab="tab-identify" id="btn-tab-identify">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <span>1:N Invariant Search</span>
-        </button>
-        <button class="tab-btn" data-tab="tab-verify" id="btn-tab-verify">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-          <span>1:1 Pairwise Verifier</span>
-        </button>
-        <button class="tab-btn" data-tab="tab-stress" id="btn-tab-stress">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a10 10 0 0 1 10 10"></path></svg>
-          <span>Colorway Stress Lab</span>
-        </button>
-        <button class="tab-btn" data-tab="tab-evaluation" id="btn-tab-evaluation">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-          <span>Protocol & Benchmarks</span>
-        </button>
-        <button class="tab-btn" data-tab="tab-efficiency" id="btn-tab-efficiency">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-          <span>Edge Engine HUD</span>
-        </button>
-        <button class="tab-btn" data-tab="tab-approach" id="btn-tab-approach">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-          <span>Approach Note (500c)</span>
-        </button>
-      </nav>
-
-      <!-- Bottom Live Telemetry Pod -->
-      <div class="sidebar-telemetry">
-        <div class="telemetry-header">
-          <span class="telemetry-title">Engine Status</span>
-          <div class="pulse-dot-wrap">
-            <span class="pulse-dot"></span>
-            <span>Online</span>
-          </div>
+      <div class="nav-actions">
+        <div class="live-indicator">
+          <span class="pulse-beacon"></span>
+          <span>Inference Ready (8.2M)</span>
         </div>
-        <div class="telemetry-grid">
-          <div class="telemetry-cell">
-            <span class="cell-lbl">Parameters</span>
-            <span class="cell-val">8.20M</span>
-          </div>
-          <div class="telemetry-cell">
-            <span class="cell-lbl">Gallery</span>
-            <span class="cell-val" id="gallery-count">25</span>
-          </div>
-          <div class="telemetry-cell">
-            <span class="cell-lbl">ROC AUC</span>
-            <span class="cell-val text-emerald">0.9495</span>
-          </div>
-          <div class="telemetry-cell">
-            <span class="cell-lbl">Bias Gap</span>
-            <span class="cell-val text-cyan">+0.6305</span>
-          </div>
-        </div>
+        <a href="https://colab.research.google.com/github/3vc22cs044/Deeplure/blob/main/saree_recognition_kaggle.ipynb" target="_blank" class="action-pill-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+          Colab Notebook
+        </a>
+        <a href="https://github.com/3vc22cs044/Deeplure" target="_blank" class="action-pill-btn btn-gradient-gold">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          GitHub Repo
+        </a>
       </div>
-    </aside>
+    </div>
+  </header>
 
-    <!-- Main Studio Canvas -->
-    <div class="studio-main">
-      
-      <!-- Top Studio Bar -->
-      <header class="studio-topbar">
-        <div class="topbar-left">
-          <div class="breadcrumb-label">
-            <span>DeepLure Studio</span>
-            <span>/</span>
-            <strong>Color-Invariant Motif Search</strong>
+  <!-- Editorial Showcase Hero Header -->
+  <section class="showcase-hero">
+    <div class="hero-supertitle">AIE-CASE // Textile Face Recognition</div>
+    <h1 class="hero-headline">Decoupling Textile Motif Geometry from Dye Palettes</h1>
+    <p class="hero-subtitle">
+      Recognizes Indian sarees by their jacquard weave contours, zari borders, and block-print stencils—independent of the chromatic palette in which that design is rendered.
+    </p>
+
+    <!-- Floating Metric Ribbons -->
+    <div class="hero-stats-deck">
+      <div class="hero-stat-chip">
+        <span class="stat-lbl">Top-1 Retrieval:</span>
+        <span class="stat-val text-gold">77.33%</span>
+      </div>
+      <div class="hero-stat-chip">
+        <span class="stat-lbl">Top-5 Recall:</span>
+        <span class="stat-val text-mint">90.67%</span>
+      </div>
+      <div class="hero-stat-chip">
+        <span class="stat-lbl">ROC-AUC:</span>
+        <span class="stat-val text-violet">0.9495</span>
+      </div>
+      <div class="hero-stat-chip">
+        <span class="stat-lbl">Color Bias Gap:</span>
+        <span class="stat-val text-cyan">+0.6305</span>
+      </div>
+      <div class="hero-stat-chip">
+        <span class="stat-lbl">Latency:</span>
+        <span class="stat-val text-mint">~50 ms (CPU)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Center Segmented Dock (Stage Switcher) -->
+  <div class="floating-dock-wrap">
+    <nav class="segmented-dock">
+      <button class="tab-btn active" data-tab="tab-identify" id="btn-tab-identify">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <span>1:N Motif Search</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-verify" id="btn-tab-verify">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        <span>1:1 Verifier</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-stress" id="btn-tab-stress">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a10 10 0 0 1 10 10"></path></svg>
+        <span>Chroma Stress Lab</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-evaluation" id="btn-tab-evaluation">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+        <span>Protocol &amp; Telemetry</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-efficiency" id="btn-tab-efficiency">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+        <span>Hardware Engine HUD</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-approach" id="btn-tab-approach">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        <span>Approach Note</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- Main Workspaces Container -->
+  <main class="stage-container">
+
+    <!-- ==================== TAB 1: 1:N RECOGNITION STUDIO ==================== -->
+    <section id="tab-identify" class="tab-pane active">
+      <div class="stage-card">
+        <div class="card-headline">
+          <div>
+            <h3>1:N Invariant Saree Motif Identification</h3>
+            <p>Select or upload a query saree probe. The engine mathematically isolates weave contours from the dye palette and retrieves ranked matches from the registered gallery.</p>
           </div>
         </div>
 
-        <div class="topbar-tickers">
-          <div class="ticker-chip">
-            <span class="lbl">Top-1 Accuracy:</span>
-            <span class="val text-gold">77.33%</span>
-          </div>
-          <div class="ticker-chip">
-            <span class="lbl">Top-5 Recall:</span>
-            <span class="val text-emerald">90.67%</span>
-          </div>
-          <div class="ticker-chip">
-            <span class="lbl">Embedding:</span>
-            <span class="val text-cyan">512-d (2 KB)</span>
-          </div>
-        </div>
-
-        <div class="topbar-actions">
-          <div class="theme-selector-wrap">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-            <select class="theme-select" id="theme-switcher">
-              <option value="emerald-gold">Royal Emerald &amp; Zari Gold</option>
-              <option value="ivory-silk">Ivory Silk &amp; Burgundy (Light)</option>
-              <option value="ruby-velvet">Midnight Ruby &amp; Coral</option>
-            </select>
-          </div>
-          <a href="https://colab.research.google.com/github/3vc22cs044/Deeplure/blob/main/saree_recognition_kaggle.ipynb" target="_blank" class="btn-header-link">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
-            Colab Run
-          </a>
-          <a href="https://github.com/3vc22cs044/Deeplure" target="_blank" class="btn-header-link btn-header-primary">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-            GitHub
-          </a>
-        </div>
-      </header>
-
-      <!-- Studio Workspaces Content -->
-      <main class="studio-content">
-
-        <!-- ==================== TAB 1: 1:N INVARIANT SEARCH ==================== -->
-        <section id="tab-identify" class="tab-pane active">
-          <div class="section-headline">
-            <div>
-              <h2>1:N Saree Motif Identification Workbench</h2>
-              <p class="section-desc">Search the reference database of registered saree designs. The model decouples surface jacquard/printing geometry from dye colorways using IBN-ResNet &amp; structural gradient stems.</p>
-            </div>
-          </div>
-
-          <div class="workbench-grid">
-            <!-- Left: Query Input Pod -->
-            <div class="glass-panel">
-              <div class="panel-title">
-                <span>1. Query Probe Selection</span>
-                <span class="brand-badge">Probe Ingest</span>
-              </div>
-
-              <!-- Curated Query Categories -->
-              <div class="sample-category-chips">
-                <button class="sample-tag active" data-type="cross_colorway_match">✨ Cross-Colorway Matches</button>
-                <button class="sample-tag" data-type="same_palette_diff_motif">⚠️ Same-Color Distractors</button>
-                <button class="sample-tag" data-type="open_set_novel">🌐 Open-Set Novel</button>
-              </div>
-
-              <!-- Thumbnail Strip -->
-              <div class="sample-queries-scroll" id="sample-queries-list">
-                <!-- Dynamically populated sample query cards -->
-              </div>
-
-              <!-- Drag and Drop Zone -->
-              <div class="dropzone-container" id="query-dropzone">
-                <input type="file" id="query-file-input" accept="image/*" style="display: none;">
-                <div class="dropzone-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
-                </div>
-                <h4>Upload Custom Saree Query</h4>
-                <p>Drag &amp; drop file or click to browse (PNG, JPG, WebP)</p>
-              </div>
-
-              <!-- Dual Viewport: Original vs Structural Gradient Heatmap -->
-              <div id="query-preview-box" style="display: none;">
-                <div class="dual-inspection-grid">
-                  <div class="inspection-viewport">
-                    <span class="viewport-label">Input Probe (RGB)</span>
-                    <img id="query-img-preview" src="" alt="Query Saree">
-                  </div>
-                  <div class="inspection-viewport">
-                    <span class="viewport-label">Invariant Motif Gradients</span>
-                    <img id="query-heatmap-preview" src="" alt="Motif Structure Heatmap">
-                  </div>
-                </div>
-
-                <button class="btn-action-primary" id="btn-run-identify">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                  Execute Neural Invariant Retrieval
-                </button>
-              </div>
+        <div class="search-stage-grid">
+          <!-- Ingestion Column -->
+          <div>
+            <!-- Categories Row -->
+            <div class="sample-categories-row">
+              <button class="sample-tag active" data-type="cross_colorway_match">✨ Cross-Colorway Matches</button>
+              <button class="sample-tag" data-type="same_palette_diff_motif">⚠️ Same-Color Distractors</button>
+              <button class="sample-tag" data-type="open_set_novel">🌐 Open-Set Novel</button>
             </div>
 
-            <!-- Right: Ranked Retrieval Matches -->
-            <div class="glass-panel">
-              <div class="panel-title">
-                <span>2. Ranked Database Matches</span>
-                <span class="status-indicator-badge" id="identify-status">Select a query above</span>
-              </div>
+            <!-- Horizontal Sample Reel -->
+            <div class="sample-reel" id="sample-queries-list">
+              <!-- Dynamically populated sample query cards -->
+            </div>
 
-              <div class="matches-list" id="identify-results-list">
-                <div style="text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
-                  <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom: 0.75rem; opacity: 0.5;">
-                    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                  </svg>
-                  <p>Top-5 candidate matches will be ranked by hyperspherical cosine affinity.</p>
+            <!-- Upload Dropzone -->
+            <div class="dropzone-dock" id="query-dropzone">
+              <input type="file" id="query-file-input" accept="image/*" style="display: none;">
+              <div class="dropzone-glyph">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+              </div>
+              <h4>Ingest Query Saree</h4>
+              <p>Drag and drop image or browse your device (PNG, JPG, WebP)</p>
+            </div>
+
+            <!-- Dual Viewport: Original vs Structural Gradient -->
+            <div id="query-preview-box" style="display: none;">
+              <div class="dual-lens-grid">
+                <div class="lens-frame">
+                  <span class="lens-label">Raw Probe Image</span>
+                  <img id="query-img-preview" src="" alt="Query Saree">
+                </div>
+                <div class="lens-frame">
+                  <span class="lens-label">Mathematical Weave Contours</span>
+                  <img id="query-heatmap-preview" src="" alt="Motif Structure Heatmap">
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
 
-        <!-- ==================== TAB 2: 1:1 COMPARATOR & VERIFICATION ==================== -->
-        <section id="tab-verify" class="tab-pane">
-          <div class="section-headline">
-            <div>
-              <h2>1:1 Pairwise Verification Chamber</h2>
-              <p class="section-desc">Determine whether two saree images represent the identical textile design motif, operating under the calibrated EER operating threshold &tau;* = 0.525.</p>
-            </div>
-          </div>
-
-          <!-- Dual-Deck Comparison Dock -->
-          <div class="comparator-dock">
-            <!-- Deck A -->
-            <div class="deck-slot" id="verify-drop-a">
-              <input type="file" id="verify-file-a" accept="image/*" style="display: none;">
-              <div class="deck-header">
-                <span>Saree Image Deck A</span>
-                <span class="brand-badge">Slot A</span>
-              </div>
-              <div class="deck-viewport">
-                <img id="verify-preview-a" alt="Deck A Image">
-                <div class="deck-placeholder" id="placeholder-a">
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
-                  <p>Click or drag Image A here</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Center Reactor -->
-            <div class="comparator-reactor">
-              <div class="vs-badge">VS</div>
-              <button class="btn-action-primary" id="btn-run-verify" style="padding: 0.65rem 1.45rem; width: auto;">
-                Verify Pair
+              <button class="btn-launch-search" id="btn-run-identify">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                Launch Invariant Search
               </button>
             </div>
+          </div>
 
-            <!-- Deck B -->
-            <div class="deck-slot" id="verify-drop-b">
-              <input type="file" id="verify-file-b" accept="image/*" style="display: none;">
-              <div class="deck-header">
-                <span>Saree Image Deck B</span>
-                <span class="brand-badge">Slot B</span>
+          <!-- Ranked Spotlight Matches Column -->
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span style="font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);">Ranked Gallery Database Matches</span>
+              <span style="font-size: 0.8rem; color: var(--accent-violet-light);" id="identify-status">Select a query above</span>
+            </div>
+
+            <div class="match-spotlight-feed" id="identify-results-list">
+              <div style="text-align: center; padding: 3.5rem 1rem; color: var(--text-dim); background: rgba(0,0,0,0.25); border-radius: var(--radius-lg); border: 1px dashed var(--border-light);">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom: 0.85rem; opacity: 0.4;">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <p>Top candidate matches will be retrieved here with cosine similarity percentages and confidence ratings.</p>
               </div>
-              <div class="deck-viewport">
-                <img id="verify-preview-b" alt="Deck B Image">
-                <div class="deck-placeholder" id="placeholder-b">
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
-                  <p>Click or drag Image B here</p>
-                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: 1:1 COMPARATOR & VERIFIER ==================== -->
+    <section id="tab-verify" class="tab-pane">
+      <div class="stage-card">
+        <div class="card-headline">
+          <div>
+            <h3>1:1 Pairwise Verification Chamber</h3>
+            <p>Determine whether two saree images represent the identical geometric design motif regardless of color alterations, operating at calibrated threshold &tau;* = 0.525.</p>
+          </div>
+        </div>
+
+        <div class="comparator-stage-layout">
+          <!-- Saree Pedestal A -->
+          <div class="saree-pedestal" id="verify-drop-a">
+            <input type="file" id="verify-file-a" accept="image/*" style="display: none;">
+            <div class="pedestal-head">
+              <span>Saree Deck A</span>
+              <span class="brand-badge-pill">Input A</span>
+            </div>
+            <div class="pedestal-frame">
+              <img id="verify-preview-a" alt="Deck A Image">
+              <div class="pedestal-empty-placeholder" id="placeholder-a">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                <p>Click or drag Image A here</p>
               </div>
             </div>
           </div>
 
-          <!-- Preset Pair Controls -->
-          <div class="preset-chips-row">
-            <button class="btn-preset-chip" id="btn-pair-pos">🟢 Positive Pair (Same Motif, Novel Colorway)</button>
-            <button class="btn-preset-chip" id="btn-pair-distractor">🔴 Hard Distractor (Different Motif, Same Palette)</button>
-            <button class="btn-preset-chip" id="btn-pair-neg">⚪ Negative Pair (Different Motif &amp; Palette)</button>
-          </div>
-
-          <!-- Verdict Chamber -->
-          <div class="verdict-chamber" id="verify-verdict-box" style="display: none;">
-            <div class="verdict-badge verdict-match" id="verify-badge">MATCH (SAME DESIGN)</div>
-            <div class="verdict-score-display" id="verify-score-text">0.825</div>
-            
-            <div class="verdict-gauge">
-              <div class="progress-bar">
-                <div class="progress-fill" id="verify-progress-fill" style="width: 82%;"></div>
-              </div>
-              <p style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; font-family: var(--font-mono);">
-                Calibrated Threshold &tau;* = <span id="verify-thr-label" style="color: #fff;">0.525</span>
-              </p>
-            </div>
-
-            <p class="verdict-explanation-text" id="verify-explanation"></p>
-          </div>
-        </section>
-
-        <!-- ==================== TAB 3: COLOR INVARIANCE STRESS MATRIX ==================== -->
-        <section id="tab-stress" class="tab-pane">
-          <div class="section-headline">
-            <div>
-              <h2>Color Invariance Stress Lab</h2>
-              <p class="section-desc">Generate real-time synthetic textile colorways and inspect the cross-colorway cosine affinity matrix on the unit hypersphere.</p>
-            </div>
-            <button class="btn-action-primary" id="btn-run-stress" style="width: auto; padding: 0.65rem 1.25rem;">
-              Re-Synthesize Colorways
+          <!-- Central Nexus Hub -->
+          <div class="comparator-nexus">
+            <div class="vs-orb">VS</div>
+            <button class="btn-verify-action" id="btn-run-verify">
+              Verify Pair
             </button>
           </div>
 
-          <div class="glass-panel" style="margin-bottom: 1.5rem;">
-            <div class="panel-title">
-              <span>Synthesized Textile Colorway Variants</span>
-              <span class="brand-badge">Palette Permutations</span>
+          <!-- Saree Pedestal B -->
+          <div class="saree-pedestal" id="verify-drop-b">
+            <input type="file" id="verify-file-b" accept="image/*" style="display: none;">
+            <div class="pedestal-head">
+              <span>Saree Deck B</span>
+              <span class="brand-badge-pill">Input B</span>
             </div>
-            <div class="colorways-grid" id="colorways-container">
-              <!-- Dynamically populated variants -->
-            </div>
-          </div>
-
-          <div class="glass-panel">
-            <div class="panel-title">
-              <span>Cross-Colorway Cosine Similarity Matrix (5&times;5)</span>
-              <span class="brand-badge">Affinity Heatmap</span>
-            </div>
-            <div class="matrix-overflow-wrap" id="similarity-matrix-box">
-              <!-- Dynamically populated matrix table -->
-            </div>
-
-            <div class="kpi-deck" style="margin-top: 1.25rem; margin-bottom: 0;">
-              <div class="kpi-card">
-                <span class="kpi-label">Mean Cross-Colorway Affinity</span>
-                <span class="kpi-number text-emerald" id="stress-mean-sim">0.825</span>
-                <span class="kpi-meta">High similarity across contrasting dye palettes</span>
-              </div>
-              <div class="kpi-card">
-                <span class="kpi-label">Invariance Rating</span>
-                <span class="kpi-number text-cyan" id="stress-assessment">Exceptional Invariance</span>
-                <span class="kpi-meta">Geometry decoupled from chromatic distribution</span>
+            <div class="pedestal-frame">
+              <img id="verify-preview-b" alt="Deck B Image">
+              <div class="pedestal-empty-placeholder" id="placeholder-b">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                <p>Click or drag Image B here</p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- ==================== TAB 4: PROTOCOL & BENCHMARKS ==================== -->
-        <section id="tab-evaluation" class="tab-pane">
-          <div class="section-headline">
-            <div>
-              <h2>Evaluation Protocol &amp; Verification Telemetry</h2>
-              <p class="section-desc">Rigorous metrics evaluated across 40 training designs, 25 gallery reference designs, and 130 query probes.</p>
-            </div>
-          </div>
+        <!-- Preset Triggers -->
+        <div class="preset-triggers-bar">
+          <button class="preset-chip-btn" id="btn-pair-pos">🟢 Positive Pair (Same Motif, Novel Colorway)</button>
+          <button class="preset-chip-btn" id="btn-pair-distractor">🔴 Hard Distractor (Different Motif, Same Palette)</button>
+          <button class="preset-chip-btn" id="btn-pair-neg">⚪ Negative Pair (Different Motif &amp; Palette)</button>
+        </div>
 
-          <!-- KPI Summary Cards -->
-          <div class="kpi-deck">
-            <div class="kpi-card">
-              <span class="kpi-label">Top-1 Accuracy</span>
-              <span class="kpi-number text-gold" id="eval-top1">77.33%</span>
-              <span class="kpi-meta">Rank-1 retrieval hit rate</span>
+        <!-- Holographic Verdict Card -->
+        <div class="verdict-holo-card" id="verify-verdict-box" style="display: none;">
+          <div class="verdict-badge verdict-match" id="verify-badge">MATCH (SAME DESIGN)</div>
+          <div class="verdict-score-readout" id="verify-score-text">0.825</div>
+          
+          <div class="verdict-gauge-meter">
+            <div class="progress-bar">
+              <div class="progress-fill" id="verify-progress-fill" style="width: 82%;"></div>
             </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Top-5 Accuracy</span>
-              <span class="kpi-number text-emerald" id="eval-top5">90.67%</span>
-              <span class="kpi-meta">Target motif in Top-5 candidates</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">mean Average Precision</span>
-              <span class="kpi-number text-cyan" id="eval-map">83.29%</span>
-              <span class="kpi-meta">Area under precision-recall curve</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Verification ROC AUC</span>
-              <span class="kpi-number text-emerald" id="eval-auc">0.9495</span>
-              <span class="kpi-meta">Pairwise motif discrimination</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Equal Error Rate (EER)</span>
-              <span class="kpi-number" id="eval-eer">13.42%</span>
-              <span class="kpi-meta">Operating threshold &tau;* = 0.525</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Color Bias Gap (&Delta;)</span>
-              <span class="kpi-number text-cyan" id="eval-gap">+0.6305</span>
-              <span class="kpi-meta">Positives (0.825) - Distractors (0.195)</span>
-            </div>
-          </div>
-
-          <!-- Evaluation Curves Grid -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
-            <div class="glass-panel text-center">
-              <div class="panel-title">
-                <span>Receiver Operating Characteristic (ROC Curve)</span>
-                <span class="brand-badge">AUC 0.9495</span>
-              </div>
-              <img src="/artifacts/roc_curve.png" alt="ROC Curve" style="width: 100%; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); background: #000;">
-            </div>
-            <div class="glass-panel text-center">
-              <div class="panel-title">
-                <span>Cumulative Match Characteristic (CMC Curve)</span>
-                <span class="brand-badge">Top-1 77.33%</span>
-              </div>
-              <img src="/artifacts/cmc_curve.png" alt="CMC Curve" style="width: 100%; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); background: #000;">
-            </div>
-          </div>
-        </section>
-
-        <!-- ==================== TAB 5: EDGE ENGINE HUD & FLOPS ==================== -->
-        <section id="tab-efficiency" class="tab-pane">
-          <div class="section-headline">
-            <div>
-              <h2>Edge Engine HUD &amp; Hardware Profiler</h2>
-              <p class="section-desc">Computational footprint, parameter counts, memory scaling, and live latency execution on the current host machine.</p>
-            </div>
-            <button class="btn-action-primary" id="btn-live-benchmark" style="width: auto; padding: 0.65rem 1.25rem;">
-              Execute Live Host Benchmark
-            </button>
-          </div>
-
-          <div class="kpi-deck">
-            <div class="kpi-card">
-              <span class="kpi-label">Total Parameters</span>
-              <span class="kpi-number text-gold" id="eff-params">8.20M</span>
-              <span class="kpi-meta">Compact IBN-ResNet backbone</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Computational Complexity</span>
-              <span class="kpi-number text-cyan" id="eff-flops">3.20 GFLOPs</span>
-              <span class="kpi-meta">1.60 GMACs per 224&times;224 pass</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Mean CPU Latency</span>
-              <span class="kpi-number text-emerald" id="eff-latency">~50 ms</span>
-              <span class="kpi-meta">~20 FPS real-time single-thread</span>
-            </div>
-            <div class="kpi-card">
-              <span class="kpi-label">Vector Embedding</span>
-              <span class="kpi-number text-cyan">2.00 KB</span>
-              <span class="kpi-meta">512 float32 values per saree</span>
-            </div>
-          </div>
-
-          <div class="glass-panel" style="margin-top: 1.5rem;">
-            <div class="panel-title">
-              <span>Large-Scale Gallery Memory Scaling Footprint</span>
-              <span class="brand-badge">Memory Telemetry</span>
-            </div>
-            <p style="color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; margin-bottom: 1rem;">
-              Because CIS-Net compresses spatial motifs into compact 512-dimensional L2-normalized hyperspherical vectors, an enterprise catalog of <strong>100,000 sarees</strong> requires only <strong>195.3 MB of RAM</strong>. Exact retrieval can be performed in under 1 millisecond using native NumPy matrix multiplications or vector search engines (FAISS).
+            <p style="font-size: 0.76rem; color: var(--text-dim); margin-top: 0.5rem; font-family: var(--font-mono);">
+              Calibrated Threshold &tau;* = <span id="verify-thr-label" style="color: #fff;">0.525</span>
             </p>
           </div>
-        </section>
 
-        <!-- ==================== TAB 6: APPROACH NOTE ==================== -->
-        <section id="tab-approach" class="tab-pane">
-          <div class="section-headline">
-            <div>
-              <h2>Approach Note &amp; Architectural Rationale</h2>
-              <p class="section-desc">Technical formulation and architectural pillars for color-invariant textile motif recognition.</p>
-            </div>
+          <p class="verdict-explanation-paragraph" id="verify-explanation"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 3: CHROMA STRESS LAB ==================== -->
+    <section id="tab-stress" class="tab-pane">
+      <div class="stage-card">
+        <div class="card-headline">
+          <div>
+            <h3>Color Invariance Stress Lab</h3>
+            <p>Generate real-time synthetic textile colorways and inspect cross-colorway cosine affinity on the unit hypersphere.</p>
+          </div>
+          <button class="action-pill-btn btn-gradient-gold" id="btn-run-stress">
+            Re-Synthesize Colorways
+          </button>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h4 style="font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 1rem;">Synthesized Textile Colorway Variants</h4>
+          <div class="colorways-gallery-reel" id="colorways-container">
+            <!-- Dynamically populated variants -->
+          </div>
+        </div>
+
+        <div>
+          <h4 style="font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 1rem;">Cross-Colorway Cosine Similarity Matrix (5&times;5)</h4>
+          <div class="matrix-scroll-deck" id="similarity-matrix-box">
+            <!-- Dynamically populated matrix table -->
           </div>
 
-          <div class="glass-panel">
-            <div class="panel-title">
-              <span>1. Concise Approach Note (&le; 500 Characters)</span>
-              <span class="brand-badge">Formal Submission</span>
+          <div class="kpi-cards-grid" style="margin-bottom: 0;">
+            <div class="kpi-metric-box">
+              <span class="kpi-label">Mean Cross-Colorway Affinity</span>
+              <span class="kpi-big text-mint" id="stress-mean-sim">0.825</span>
+              <span class="kpi-sub">High similarity across contrasting dye palettes</span>
             </div>
-            <blockquote style="background: rgba(99, 102, 241, 0.08); border-left: 3px solid var(--accent-primary); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); font-family: var(--font-mono); font-size: 0.92rem; line-height: 1.7; color: #ffffff; margin-bottom: 0.75rem;">
-              "CIS-Net uses an IBN-ResNet backbone with a fixed multi-gradient stem (Sobel &amp; Laplacian) and GeM pooling to decouple textile motif geometry from chromatic palettes. Preprocessing extracts structural gradients and instance-normalizes RGB channels. Training uses balanced P&times;K sampling (8 designs &times; 4 colorways) with ArcFace loss (m=0.35, s=30), SupCon, and palette decorrelation under aggressive hue/channel jitter. Post-processing computes L2-normalized 512-d embeddings for cosine retrieval and verification."
-            </blockquote>
-            <p style="font-size: 0.78rem; color: var(--text-muted);">Length: <strong>495 characters</strong> (strictly within the 500 character limit).</p>
-          </div>
-
-          <div class="glass-panel" style="margin-top: 1.5rem;">
-            <div class="panel-title">
-              <span>2. Architectural Defense &amp; Design Pillars</span>
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
-              <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <h4 style="color: var(--accent-cyan-light); font-size: 0.92rem; margin-bottom: 0.4rem;">1. Mathematical Gradient Injection</h4>
-                <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">Fixed differential operators (Sobel and Laplacian) capture edge geometries that are mathematically invariant to dye shifts.</p>
-              </div>
-              <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <h4 style="color: var(--accent-primary); font-size: 0.92rem; margin-bottom: 0.4rem;">2. Instance-Batch Normalization (IBN)</h4>
-                <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">Instance Normalization strips global chromatic style in early layers, while Batch Normalization preserves motif layout.</p>
-              </div>
-              <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <h4 style="color: var(--accent-gold-light); font-size: 0.92rem; margin-bottom: 0.4rem;">3. Generalized Mean (GeM) Pooling</h4>
-                <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">Learnable power pooling ($p=3.0$) concentrates feature activations on fine zari threads rather than plain ground fabric.</p>
-              </div>
-              <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <h4 style="color: var(--accent-emerald); font-size: 0.92rem; margin-bottom: 0.4rem;">4. Hyperspherical ArcFace + SupCon</h4>
-                <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">Angular margin penalty ($m=0.35, s=28.0$) enforces tight intra-motif clustering and broad inter-motif separation on $\mathbb{S}^{511}$.</p>
-              </div>
+            <div class="kpi-metric-box">
+              <span class="kpi-label">Invariance Assessment</span>
+              <span class="kpi-big text-violet" id="stress-assessment">Exceptional Invariance</span>
+              <span class="kpi-sub">Geometry decoupled from chromatic distribution</span>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-      </main>
-    </div>
-  </div>
+    <!-- ==================== TAB 4: PROTOCOL & TELEMETRY ==================== -->
+    <section id="tab-evaluation" class="tab-pane">
+      <div class="stage-card">
+        <div class="card-headline">
+          <div>
+            <h3>Evaluation Protocol &amp; Verification Telemetry</h3>
+            <p>Rigorous metrics evaluated across 40 training designs, 25 gallery reference designs, and 130 query probes.</p>
+          </div>
+        </div>
+
+        <div class="kpi-cards-grid">
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Top-1 Accuracy</span>
+            <span class="kpi-big text-gold" id="eval-top1">77.33%</span>
+            <span class="kpi-sub">Rank-1 retrieval hit rate</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Top-5 Accuracy</span>
+            <span class="kpi-big text-mint" id="eval-top5">90.67%</span>
+            <span class="kpi-sub">Target motif in Top-5 candidates</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">mean Average Precision</span>
+            <span class="kpi-big text-cyan" id="eval-map">83.29%</span>
+            <span class="kpi-sub">mAP across Recall Ranks</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Verification ROC AUC</span>
+            <span class="kpi-big text-violet" id="eval-auc">0.9495</span>
+            <span class="kpi-sub">Pairwise motif discrimination</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Equal Error Rate (EER)</span>
+            <span class="kpi-big" id="eval-eer">13.42%</span>
+            <span class="kpi-sub">Operating threshold &tau;* = 0.525</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Color Bias Gap (&Delta;)</span>
+            <span class="kpi-big text-mint" id="eval-gap">+0.6305</span>
+            <span class="kpi-sub">Positives (0.825) - Distractors (0.195)</span>
+          </div>
+        </div>
+
+        <div class="curves-side-by-side">
+          <div class="curve-card">
+            <h4 style="font-size: 1rem; color: #fff;">Receiver Operating Characteristic (ROC Curve)</h4>
+            <p style="font-size: 0.78rem; color: var(--text-dim);">Verification AUC: 0.9495 across all cosine thresholds</p>
+            <img src="/artifacts/roc_curve.png" alt="ROC Curve">
+          </div>
+          <div class="curve-card">
+            <h4 style="font-size: 1rem; color: #fff;">Cumulative Match Characteristic (CMC Curve)</h4>
+            <p style="font-size: 0.78rem; color: var(--text-dim);">Identification Rate from Rank-1 (77.3%) to Rank-15</p>
+            <img src="/artifacts/cmc_curve.png" alt="CMC Curve">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 5: HARDWARE ENGINE HUD ==================== -->
+    <section id="tab-efficiency" class="tab-pane">
+      <div class="stage-card">
+        <div class="card-headline">
+          <div>
+            <h3>Hardware Profiler &amp; Edge Engine HUD</h3>
+            <p>Computational footprint, parameter counts, memory scaling, and live latency benchmark on the current server.</p>
+          </div>
+          <button class="action-pill-btn btn-gradient-gold" id="btn-live-benchmark">
+            Execute Live Server Benchmark
+          </button>
+        </div>
+
+        <div class="kpi-cards-grid">
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Total Parameters</span>
+            <span class="kpi-big text-gold" id="eff-params">8.20M</span>
+            <span class="kpi-sub">Lean IBN-ResNet backbone</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Computational Cost</span>
+            <span class="kpi-big text-cyan" id="eff-flops">3.20 GFLOPs</span>
+            <span class="kpi-sub">1.60 GMACs per 224&times;224 pass</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Mean CPU Latency</span>
+            <span class="kpi-big text-mint" id="eff-latency">~50 ms</span>
+            <span class="kpi-sub">~20 FPS real-time single-thread</span>
+          </div>
+          <div class="kpi-metric-box">
+            <span class="kpi-label">Embedding Size</span>
+            <span class="kpi-big text-violet">2.00 KB</span>
+            <span class="kpi-sub">512 float32 values per saree</span>
+          </div>
+        </div>
+
+        <div style="background: rgba(0,0,0,0.35); border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 1.5rem; margin-top: 1.5rem;">
+          <h4 style="font-size: 1rem; color: #fff; margin-bottom: 0.5rem;">Large-Scale Gallery Memory Scaling Footprint</h4>
+          <p style="font-size: 0.88rem; color: var(--text-sub); line-height: 1.7;">
+            Because CIS-Net compresses spatial motifs into compact 512-dimensional L2-normalized hyperspherical vectors, an enterprise catalog of <strong>100,000 sarees</strong> requires only <strong>195.3 MB of RAM</strong>. Exact retrieval can be performed in under 1 millisecond using native NumPy matrix multiplications or vector search engines (FAISS).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 6: APPROACH NOTE ==================== -->
+    <section id="tab-approach" class="tab-pane">
+      <div class="stage-card">
+        <div class="card-headline">
+          <div>
+            <h3>Approach Note &amp; Architectural Rationale</h3>
+            <p>Official technical submission deliverable for AIE-CASE Color-Invariant Saree Recognition.</p>
+          </div>
+        </div>
+
+        <div style="background: rgba(139, 92, 246, 0.08); border-left: 4px solid var(--accent-violet); padding: 1.5rem 1.8rem; border-radius: var(--radius-md); margin-bottom: 2rem;">
+          <h4 style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-violet-light); margin-bottom: 0.5rem;">Approach Note (&le; 500 Characters)</h4>
+          <blockquote style="font-family: var(--font-mono); font-size: 0.96rem; line-height: 1.7; color: #ffffff;">
+            "CIS-Net uses an IBN-ResNet backbone with a fixed multi-gradient stem (Sobel &amp; Laplacian) and GeM pooling to decouple textile motif geometry from chromatic palettes. Preprocessing extracts structural gradients and instance-normalizes RGB channels. Training uses balanced P&times;K sampling (8 designs &times; 4 colorways) with ArcFace loss (m=0.35, s=30), SupCon, and palette decorrelation under aggressive hue/channel jitter. Post-processing computes L2-normalized 512-d embeddings for cosine retrieval and verification."
+          </blockquote>
+          <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 0.75rem;">Length: <strong>495 characters</strong> (strictly within the 500 character limit).</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
+            <h4 style="color: var(--accent-cyan); font-size: 0.95rem; margin-bottom: 0.5rem;">1. Mathematical Gradient Injection</h4>
+            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Fixed differential operators (Sobel and Laplacian) capture edge geometries that are mathematically invariant to dye shifts.</p>
+          </div>
+          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
+            <h4 style="color: var(--accent-violet-light); font-size: 0.95rem; margin-bottom: 0.5rem;">2. Instance-Batch Normalization (IBN)</h4>
+            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Instance Normalization strips global chromatic style in early layers, while Batch Normalization preserves motif layout.</p>
+          </div>
+          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
+            <h4 style="color: var(--accent-gold-light); font-size: 0.95rem; margin-bottom: 0.5rem;">3. Generalized Mean (GeM) Pooling</h4>
+            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Learnable power pooling ($p=3.0$) concentrates feature activations on fine zari threads rather than plain ground fabric.</p>
+          </div>
+          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
+            <h4 style="color: var(--accent-mint-light); font-size: 0.95rem; margin-bottom: 0.5rem;">4. Hyperspherical ArcFace + SupCon</h4>
+            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Angular margin penalty ($m=0.35, s=28.0$) enforces tight intra-motif clustering and broad inter-motif separation on $\mathbb{S}^{511}$.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <script src="/static/app.js"></script>
 </body>
