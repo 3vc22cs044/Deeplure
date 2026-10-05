@@ -280,14 +280,14 @@
         </div>
 
         <div style="margin-bottom: 2rem;">
-          <h4 style="font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 1rem;">Synthesized Textile Colorway Variants</h4>
+          <h4 style="font-size: 1rem; font-weight: 700; color: var(--text-main); margin-bottom: 1rem;">Synthesized Textile Colorway Variants</h4>
           <div class="colorways-gallery-reel" id="colorways-container">
             <!-- Dynamically populated variants -->
           </div>
         </div>
 
         <div>
-          <h4 style="font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 1rem;">Cross-Colorway Cosine Similarity Matrix (5&times;5)</h4>
+          <h4 style="font-size: 1rem; font-weight: 700; color: var(--text-main); margin-bottom: 1rem;">Cross-Colorway Cosine Similarity Matrix (5&times;5)</h4>
           <div class="matrix-scroll-deck" id="similarity-matrix-box">
             <!-- Dynamically populated matrix table -->
           </div>
@@ -353,13 +353,13 @@
 
         <div class="curves-side-by-side">
           <div class="curve-card">
-            <h4 style="font-size: 1rem; color: #fff;">Receiver Operating Characteristic (ROC Curve)</h4>
-            <p style="font-size: 0.78rem; color: var(--text-dim);">Verification AUC: 0.9495 across all cosine thresholds</p>
+            <h4 style="font-size: 1rem; color: var(--text-main); font-weight: 700;">Receiver Operating Characteristic (ROC Curve)</h4>
+            <p style="font-size: 0.8rem; color: var(--text-sub);">Verification AUC: 0.9495 across all cosine thresholds</p>
             <img src="/artifacts/roc_curve.png" alt="ROC Curve">
           </div>
           <div class="curve-card">
-            <h4 style="font-size: 1rem; color: #fff;">Cumulative Match Characteristic (CMC Curve)</h4>
-            <p style="font-size: 0.78rem; color: var(--text-dim);">Identification Rate from Rank-1 (77.3%) to Rank-15</p>
+            <h4 style="font-size: 1rem; color: var(--text-main); font-weight: 700;">Cumulative Match Characteristic (CMC Curve)</h4>
+            <p style="font-size: 0.8rem; color: var(--text-sub);">Identification Rate from Rank-1 (77.3%) to Rank-15</p>
             <img src="/artifacts/cmc_curve.png" alt="CMC Curve">
           </div>
         </div>
@@ -402,9 +402,9 @@
           </div>
         </div>
 
-        <div style="background: rgba(0,0,0,0.35); border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 1.5rem; margin-top: 1.5rem;">
-          <h4 style="font-size: 1rem; color: #fff; margin-bottom: 0.5rem;">Large-Scale Gallery Memory Scaling Footprint</h4>
-          <p style="font-size: 0.88rem; color: var(--text-sub); line-height: 1.7;">
+        <div style="background: #f8fafc; border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 1.5rem; margin-top: 1.5rem;">
+          <h4 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem; font-weight: 700;">Large-Scale Gallery Memory Scaling Footprint</h4>
+          <p style="font-size: 0.9rem; color: var(--text-body); line-height: 1.7;">
             Because CIS-Net compresses spatial motifs into compact 512-dimensional L2-normalized hyperspherical vectors, an enterprise catalog of <strong>100,000 sarees</strong> requires only <strong>195.3 MB of RAM</strong>. Exact retrieval can be performed in under 1 millisecond using native NumPy matrix multiplications or vector search engines (FAISS).
           </p>
         </div>
@@ -421,30 +421,30 @@
           </div>
         </div>
 
-        <div style="background: rgba(139, 92, 246, 0.08); border-left: 4px solid var(--accent-violet); padding: 1.5rem 1.8rem; border-radius: var(--radius-md); margin-bottom: 2rem;">
-          <h4 style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-violet-light); margin-bottom: 0.5rem;">Approach Note (&le; 500 Characters)</h4>
-          <blockquote style="font-family: var(--font-mono); font-size: 0.96rem; line-height: 1.7; color: #ffffff;">
+        <div style="background: #eef2ff; border-left: 4px solid var(--accent-primary); padding: 1.5rem 1.8rem; border-radius: var(--radius-md); margin-bottom: 2rem;">
+          <h4 style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-primary); margin-bottom: 0.5rem;">Approach Note (&le; 500 Characters)</h4>
+          <blockquote style="font-family: var(--font-mono); font-size: 0.96rem; line-height: 1.7; color: var(--text-main);">
             "CIS-Net uses an IBN-ResNet backbone with a fixed multi-gradient stem (Sobel &amp; Laplacian) and GeM pooling to decouple textile motif geometry from chromatic palettes. Preprocessing extracts structural gradients and instance-normalizes RGB channels. Training uses balanced P&times;K sampling (8 designs &times; 4 colorways) with ArcFace loss (m=0.35, s=30), SupCon, and palette decorrelation under aggressive hue/channel jitter. Post-processing computes L2-normalized 512-d embeddings for cosine retrieval and verification."
           </blockquote>
-          <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 0.75rem;">Length: <strong>495 characters</strong> (strictly within the 500 character limit).</p>
+          <p style="font-size: 0.8rem; color: var(--text-sub); margin-top: 0.75rem;">Length: <strong>495 characters</strong> (strictly within the 500 character limit).</p>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
-          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
-            <h4 style="color: var(--accent-cyan); font-size: 0.95rem; margin-bottom: 0.5rem;">1. Mathematical Gradient Injection</h4>
-            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Fixed differential operators (Sobel and Laplacian) capture edge geometries that are mathematically invariant to dye shifts.</p>
+          <div style="background: #f8fafc; padding: 1.4rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <h4 style="color: var(--accent-cyan); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 700;">1. Mathematical Gradient Injection</h4>
+            <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">Fixed differential operators (Sobel and Laplacian) capture edge geometries that are mathematically invariant to dye shifts.</p>
           </div>
-          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
-            <h4 style="color: var(--accent-violet-light); font-size: 0.95rem; margin-bottom: 0.5rem;">2. Instance-Batch Normalization (IBN)</h4>
-            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Instance Normalization strips global chromatic style in early layers, while Batch Normalization preserves motif layout.</p>
+          <div style="background: #f8fafc; padding: 1.4rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <h4 style="color: var(--accent-primary); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 700;">2. Instance-Batch Normalization (IBN)</h4>
+            <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">Instance Normalization strips global chromatic style in early layers, while Batch Normalization preserves motif layout.</p>
           </div>
-          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
-            <h4 style="color: var(--accent-gold-light); font-size: 0.95rem; margin-bottom: 0.5rem;">3. Generalized Mean (GeM) Pooling</h4>
-            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Learnable power pooling ($p=3.0$) concentrates feature activations on fine zari threads rather than plain ground fabric.</p>
+          <div style="background: #f8fafc; padding: 1.4rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <h4 style="color: var(--accent-gold); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 700;">3. Generalized Mean (GeM) Pooling</h4>
+            <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">Learnable power pooling ($p=3.0$) concentrates feature activations on fine zari threads rather than plain ground fabric.</p>
           </div>
-          <div style="background: rgba(0,0,0,0.35); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light);">
-            <h4 style="color: var(--accent-mint-light); font-size: 0.95rem; margin-bottom: 0.5rem;">4. Hyperspherical ArcFace + SupCon</h4>
-            <p style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">Angular margin penalty ($m=0.35, s=28.0$) enforces tight intra-motif clustering and broad inter-motif separation on $\mathbb{S}^{511}$.</p>
+          <div style="background: #f8fafc; padding: 1.4rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+            <h4 style="color: var(--accent-mint); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 700;">4. Hyperspherical ArcFace + SupCon</h4>
+            <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">Angular margin penalty ($m=0.35, s=28.0$) enforces tight intra-motif clustering and broad inter-motif separation on $\mathbb{S}^{511}$.</p>
           </div>
         </div>
       </div>
