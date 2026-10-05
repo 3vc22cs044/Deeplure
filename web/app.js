@@ -20,6 +20,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Theme Switching Logic
+  const themeSwitcher = document.getElementById("theme-switcher");
+  if (themeSwitcher) {
+    const savedTheme = localStorage.getItem("deeplure-theme") || "emerald-gold";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    themeSwitcher.value = savedTheme;
+
+    themeSwitcher.addEventListener("change", (e) => {
+      const selected = e.target.value;
+      document.documentElement.setAttribute("data-theme", selected);
+      localStorage.setItem("deeplure-theme", selected);
+    });
+  }
+
   // State
   let sampleQueriesData = {};
   let currentActiveQueryType = "cross_colorway_match";
